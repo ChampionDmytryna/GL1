@@ -277,7 +277,7 @@ function temp(test){
 
 
     var text = 'Hello people of 1974. I come from the future. In 2014 we have laser guns, hover boards and live on the moon!';
-    let yearRegex = /\d+/g
+    let yearRegex = /\d+/g    //d+ виводить все якщо більше ніж 1 цифра в числі
     var res = text.match( yearRegex )
     if(res.filter(e => e = res))
     console.log(`Years: ${res}`);
